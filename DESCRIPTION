@@ -1,0 +1,5 @@
+MCP23017 + ULN
+Used the ULN2803 darlingtonarray since the MCP23017 outputs are not open collector and do not support the 5V of the relay board optocoupler inputs.
+
+Note:
+The J4 connector is misaligned. Do not use for a PCB without fixing it!
