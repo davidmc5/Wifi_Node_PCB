@@ -4431,7 +4431,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U5" library="SFM-Project" deviceset="TLV75533PDBVR" device="" value="TLV75533"/>
+<part name="U3" library="SFM-Project" deviceset="TLV75533PDBVR" device="" value="TLV75533"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -4508,7 +4508,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <instance part="GND8" gate="1" x="83.82" y="172.72" smashed="yes">
 <attribute name="VALUE" x="83.82" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U5" gate="G$1" x="60.96" y="187.96" smashed="yes">
+<instance part="U3" gate="G$1" x="60.96" y="187.96" smashed="yes">
 <attribute name="NAME" x="53.33781875" y="196.21736875" size="1.778509375" layer="95"/>
 <attribute name="VALUE" x="53.324809375" y="177.7797" size="1.78155" layer="96"/>
 </instance>
@@ -4674,7 +4674,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <wire x1="73.66" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
 <junction x="83.82" y="190.5"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<pinref part="U5" gate="G$1" pin="OUT"/>
+<pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="93.98" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="182.88" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
@@ -4747,7 +4747,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <segment>
 <wire x1="73.66" y1="182.88" x2="73.66" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -5035,13 +5035,13 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="IN"/>
+<pinref part="U3" gate="G$1" pin="IN"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="190.5" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="190.5" x2="38.1" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="185.42" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="EN"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="190.5" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
