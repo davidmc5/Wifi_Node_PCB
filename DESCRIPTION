@@ -2,3 +2,5 @@ MCP23018 -NO ULN
 The MCP23018 has open collector outputs and supports the 5V of the relay board optocoupler inputs.
 
 Library - edited ESP-WROOM footprint. Removed pad 19 (underneath ground) solder mask and solder paste (tCream layer). Manufacturer does not recommend soldering that pad.
+
+Moved J1 to bottom layer (rev 1.2a) and increased tNames labels sizes

@@ -4474,8 +4474,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <sheets>
 <sheet>
 <plain>
-<text x="264.16" y="7.62" size="2.54" layer="94" font="vector" ratio="7" distance="3">1.0</text>
+<text x="264.16" y="7.62" size="2.54" layer="94" font="vector" ratio="7" distance="3">1.2a</text>
 <text x="177.8" y="25.4" size="5.08" layer="94" font="vector" ratio="7" distance="3">WiFi Relay Node</text>
+<text x="175.26" y="38.1" size="2.54" layer="91">J1 is assembled on the bottom layer</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -4848,9 +4849,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="231.14" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
-<label x="218.44" y="127" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="246.38" y1="127" x2="261.62" y2="127" width="0.1524" layer="91"/>
+<label x="259.08" y="127" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH2" class="0">
@@ -4860,9 +4861,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="246.38" y1="127" x2="261.62" y2="127" width="0.1524" layer="91"/>
-<label x="259.08" y="127" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="231.14" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
+<label x="218.44" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH3" class="0">
@@ -4872,9 +4873,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="231.14" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
-<label x="218.44" y="124.46" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="246.38" y1="124.46" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
+<label x="259.08" y="124.46" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH4" class="0">
@@ -4884,9 +4885,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="246.38" y1="124.46" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
-<label x="259.08" y="124.46" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="231.14" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<label x="218.44" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH5" class="0">
@@ -4896,9 +4897,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="231.14" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
-<label x="218.44" y="121.92" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="246.38" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
+<label x="259.08" y="121.92" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH6" class="0">
@@ -4908,9 +4909,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="246.38" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
-<label x="259.08" y="121.92" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="231.14" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<label x="218.44" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH7" class="0">
@@ -4920,9 +4921,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="231.14" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
-<label x="218.44" y="119.38" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="246.38" y1="119.38" x2="261.62" y2="119.38" width="0.1524" layer="91"/>
+<label x="259.08" y="119.38" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH8" class="0">
@@ -4932,9 +4933,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="132.08" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="246.38" y1="119.38" x2="261.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="259.08" y="119.38" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="231.14" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<label x="218.44" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH9" class="0">
@@ -4944,9 +4945,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="119.38" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="231.14" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<label x="218.44" y="116.84" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="12"/>
+<wire x1="246.38" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
+<label x="259.08" y="116.84" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH10" class="0">
@@ -4956,9 +4957,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="116.84" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="12"/>
-<wire x1="246.38" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
-<label x="259.08" y="116.84" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="231.14" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="218.44" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH11" class="0">
@@ -4968,9 +4969,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="114.3" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="231.14" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
-<label x="218.44" y="114.3" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="14"/>
+<wire x1="246.38" y1="114.3" x2="261.62" y2="114.3" width="0.1524" layer="91"/>
+<label x="259.08" y="114.3" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH12" class="0">
@@ -4980,9 +4981,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="111.76" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="14"/>
-<wire x1="246.38" y1="114.3" x2="261.62" y2="114.3" width="0.1524" layer="91"/>
-<label x="259.08" y="114.3" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="13"/>
+<wire x1="231.14" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
+<label x="218.44" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH13" class="0">
@@ -4992,9 +4993,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="109.22" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="15"/>
-<wire x1="231.14" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
-<label x="218.44" y="111.76" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="16"/>
+<wire x1="246.38" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
+<label x="259.08" y="111.76" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH14" class="0">
@@ -5004,9 +5005,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="106.68" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="16"/>
-<wire x1="246.38" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
-<label x="259.08" y="111.76" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="15"/>
+<wire x1="231.14" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
+<label x="218.44" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH15" class="0">
@@ -5016,9 +5017,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="104.14" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="17"/>
-<wire x1="231.14" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
-<label x="218.44" y="109.22" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="18"/>
+<wire x1="246.38" y1="109.22" x2="261.62" y2="109.22" width="0.1524" layer="91"/>
+<label x="259.08" y="109.22" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CH16" class="0">
@@ -5028,9 +5029,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="187.96" y="101.6" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="18"/>
-<wire x1="246.38" y1="109.22" x2="261.62" y2="109.22" width="0.1524" layer="91"/>
-<label x="259.08" y="109.22" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="J1" gate="G$1" pin="17"/>
+<wire x1="231.14" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
+<label x="218.44" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
