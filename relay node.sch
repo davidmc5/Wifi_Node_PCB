@@ -4472,7 +4472,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <sheets>
 <sheet>
 <plain>
-<text x="264.16" y="7.62" size="2.54" layer="94" font="vector" ratio="7" distance="3">2.1.0</text>
+<text x="264.16" y="7.62" size="2.54" layer="94" font="vector" ratio="7" distance="3">1.0.0</text>
 <text x="177.8" y="25.4" size="5.08" layer="94" font="vector" ratio="7" distance="3">WiFi Relay Node</text>
 <text x="175.26" y="38.1" size="2.54" layer="91">J1 is assembled on the bottom layer</text>
 </plain>
