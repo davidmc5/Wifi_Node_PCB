@@ -267,32 +267,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="SFM-Project">
 <packages>
 <package name="SOT95P280X145-5N">
-<wire x1="-0.88" y1="1.53" x2="-0.88" y2="-1.53" width="0.127" layer="51"/>
-<wire x1="-0.88" y1="-1.53" x2="0.88" y2="-1.53" width="0.127" layer="51"/>
-<wire x1="0.88" y1="-1.53" x2="0.88" y2="1.53" width="0.127" layer="51"/>
-<wire x1="0.88" y1="1.53" x2="-0.88" y2="1.53" width="0.127" layer="51"/>
-<wire x1="-0.88" y1="1.53" x2="0.88" y2="1.53" width="0.127" layer="21"/>
-<wire x1="-0.88" y1="-1.53" x2="0.88" y2="-1.53" width="0.127" layer="21"/>
-<text x="-2.0087" y="2.05891875" size="1.02041875" layer="25">&gt;NAME</text>
-<text x="-2.05626875" y="-2.908859375" size="1.019109375" layer="27">&gt;VALUE</text>
-<wire x1="-2.11" y1="1.5" x2="-1.13" y2="1.5" width="0.05" layer="39"/>
-<wire x1="-1.13" y1="1.5" x2="-1.13" y2="1.78" width="0.05" layer="39"/>
-<wire x1="-1.13" y1="1.78" x2="1.13" y2="1.78" width="0.05" layer="39"/>
-<wire x1="1.13" y1="1.78" x2="1.13" y2="1.5" width="0.05" layer="39"/>
-<wire x1="1.13" y1="1.5" x2="2.11" y2="1.5" width="0.05" layer="39"/>
-<wire x1="2.11" y1="1.5" x2="2.11" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="2.11" y1="-1.5" x2="1.13" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="1.13" y1="-1.5" x2="1.13" y2="-1.78" width="0.05" layer="39"/>
-<wire x1="1.13" y1="-1.78" x2="-1.13" y2="-1.78" width="0.05" layer="39"/>
-<wire x1="-1.13" y1="-1.78" x2="-1.13" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="-1.13" y1="-1.5" x2="-2.11" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="-2.11" y1="-1.5" x2="-2.11" y2="1.5" width="0.05" layer="39"/>
-<circle x="-2.45" y="1.05" radius="0.1581125" width="0.2" layer="21"/>
-<smd name="1" x="-1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="2" x="-1.255" y="0" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="3" x="-1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="4" x="1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50" rot="R180"/>
-<smd name="5" x="1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50" rot="R180"/>
+<wire x1="-0.8" y1="1.45" x2="-0.8" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-1.56" x2="0.8" y2="-1.56" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1.45" x2="0.8" y2="1.45" width="0.127" layer="51"/>
+<wire x1="0.8" y1="1.56" x2="-0.8" y2="1.56" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.45" x2="0.8" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="-0.8" y2="1.45" width="0.127" layer="51"/>
+<wire x1="-2.11" y1="1.7" x2="-2.11" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-2.11" y1="-1.7" x2="2.11" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="2.11" y1="-1.7" x2="2.11" y2="1.7" width="0.05" layer="39"/>
+<wire x1="2.11" y1="1.7" x2="-2.11" y2="1.7" width="0.05" layer="39"/>
+<text x="-2.5" y="1.9" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-2.9" size="1.016" layer="27">&gt;VALUE</text>
+<circle x="-2.5" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.5" y="0.95" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-1.165" y="0.95" dx="1.39" dy="0.58" layer="1"/>
+<smd name="2" x="-1.165" y="0" dx="1.39" dy="0.58" layer="1"/>
+<smd name="3" x="-1.165" y="-0.95" dx="1.39" dy="0.58" layer="1"/>
+<smd name="4" x="1.165" y="-0.95" dx="1.39" dy="0.58" layer="1" rot="R180"/>
+<smd name="5" x="1.165" y="0.95" dx="1.39" dy="0.58" layer="1" rot="R180"/>
 </package>
 <package name="1X02">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -2879,17 +2872,17 @@ Pin rows are offset 5mm as well
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="TLV75533PDBVR">
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
-<text x="-7.62218125" y="8.25736875" size="1.778509375" layer="95">&gt;NAME</text>
-<text x="-7.635190625" y="-10.1803" size="1.78155" layer="96">&gt;VALUE</text>
-<pin name="IN" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="EN" x="-12.7" y="0" length="middle" direction="in"/>
-<pin name="OUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<symbol name="MIC5504-3.3YM5-T5">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="VOUT" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="CONN_02">
 <description>&lt;h3&gt;2 Pin Connection&lt;/h3&gt;</description>
@@ -3105,27 +3098,27 @@ Pin rows are offset 5mm as well
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TLV75533PDBVR" prefix="U">
-<description>500mA Low-IQ Small-Size Low-Dropout (LDO) Regulator 5-SOT-23 -40 to 125</description>
+<deviceset name="MIC5504-3.3YM5-T5" prefix="U">
+<description>Linear Voltage Regulator IC 1 Output 300mA SOT-23-5</description>
 <gates>
-<gate name="G$1" symbol="TLV75533PDBVR" x="0" y="0"/>
+<gate name="G$1" symbol="MIC5504-3.3YM5-T5" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT95P280X145-5N">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC 1 Output 500mA SOT-23-5 "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="296-50411-1-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/texas-instruments/TLV75533PDBVR/296-50411-1-ND/9685550?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="Texas Instruments"/>
-<attribute name="MP" value="TLV75533PDBVR"/>
-<attribute name="PACKAGE" value="SOT-23 Texas Instruments"/>
+<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC 1 Output 300mA SOT-23-5 "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="MIC5504-3.3YM5-T5CT-ND"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=1219468"/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MP" value="MIC5504-3.3YM5-T5"/>
+<attribute name="PACKAGE" value="SOT-23-5 Microchip"/>
 </technology>
 </technologies>
 </device>
@@ -4436,7 +4429,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U3" library="SFM-Project" deviceset="TLV75533PDBVR" device="" value="TLV75533"/>
+<part name="U3" library="SFM-Project" deviceset="MIC5504-3.3YM5-T5" device="" value="MIC5504-3.3"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -4479,7 +4472,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <sheets>
 <sheet>
 <plain>
-<text x="264.16" y="7.62" size="2.54" layer="94" font="vector" ratio="7" distance="3">1.2a</text>
+<text x="264.16" y="7.62" size="2.54" layer="94" font="vector" ratio="7" distance="3">2.1.0</text>
 <text x="177.8" y="25.4" size="5.08" layer="94" font="vector" ratio="7" distance="3">WiFi Relay Node</text>
 <text x="175.26" y="38.1" size="2.54" layer="91">J1 is assembled on the bottom layer</text>
 </plain>
@@ -4496,8 +4489,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <instance part="GND4" gate="1" x="177.8" y="88.9" smashed="yes">
 <attribute name="VALUE" x="177.8" y="88.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="83.82" y="195.58" smashed="yes">
-<attribute name="VALUE" x="83.82" y="198.374" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="96.52" y="200.66" smashed="yes">
+<attribute name="VALUE" x="96.52" y="203.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="180.34" y="154.94" smashed="yes">
 <attribute name="VALUE" x="180.34" y="157.734" size="1.778" layer="96" align="bottom-center"/>
@@ -4508,15 +4501,15 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <instance part="GND1" gate="1" x="45.72" y="172.72" smashed="yes">
 <attribute name="VALUE" x="45.72" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="73.66" y="172.72" smashed="yes">
-<attribute name="VALUE" x="73.66" y="172.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="81.28" y="172.72" smashed="yes">
+<attribute name="VALUE" x="81.28" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND8" gate="1" x="83.82" y="172.72" smashed="yes">
-<attribute name="VALUE" x="83.82" y="172.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="96.52" y="172.72" smashed="yes">
+<attribute name="VALUE" x="96.52" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U3" gate="G$1" x="60.96" y="187.96" smashed="yes">
-<attribute name="NAME" x="53.33781875" y="196.21736875" size="1.778509375" layer="95"/>
-<attribute name="VALUE" x="53.324809375" y="177.7797" size="1.78155" layer="96"/>
+<instance part="U3" gate="G$1" x="66.04" y="187.96" smashed="yes">
+<attribute name="NAME" x="58.41781875" y="196.21736875" size="1.778509375" layer="95"/>
+<attribute name="VALUE" x="58.404809375" y="177.7797" size="1.78155" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="238.76" y="93.98" smashed="yes">
 <attribute name="VALUE" x="238.76" y="93.726" size="1.778" layer="96" align="top-center"/>
@@ -4524,8 +4517,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <instance part="P+4" gate="1" x="238.76" y="142.24" smashed="yes">
 <attribute name="VALUE" x="238.76" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+1" gate="1" x="30.48" y="200.66" smashed="yes">
-<attribute name="VALUE" x="30.48" y="203.2" size="1.778" layer="96" rot="R180"/>
+<instance part="P+1" gate="1" x="30.48" y="203.2" smashed="yes">
+<attribute name="VALUE" x="30.48" y="205.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J2" gate="G$1" x="35.56" y="73.66" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="33.02" y="78.486" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -4539,11 +4532,11 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <attribute name="VALUE" x="33.02" y="37.846" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="33.02" y="12.192" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="GND9" gate="1" x="91.186" y="139.7" smashed="yes">
-<attribute name="VALUE" x="91.186" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="91.186" y="137.16" smashed="yes">
+<attribute name="VALUE" x="91.186" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="198.12" y="139.7" smashed="yes">
-<attribute name="VALUE" x="198.12" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="198.12" y="137.16" smashed="yes">
+<attribute name="VALUE" x="198.12" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="35.56" y="190.5" smashed="yes">
 <attribute name="NAME" x="38.1" y="190.9826" size="1.778" layer="95"/>
@@ -4553,8 +4546,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <attribute name="NAME" x="38.1" y="185.9026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="183.1086" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="93.98" y="172.72" smashed="yes">
-<attribute name="VALUE" x="93.98" y="172.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="106.68" y="172.72" smashed="yes">
+<attribute name="VALUE" x="106.68" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND12" gate="1" x="33.02" y="139.7" smashed="yes">
 <attribute name="VALUE" x="33.02" y="139.446" size="1.778" layer="96" align="top-center"/>
@@ -4620,9 +4613,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <attribute name="NAME" x="40.64" y="180.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="175.768" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="83.82" y="177.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.74" y="180.34" size="1.778" layer="95"/>
-<attribute name="VALUE" x="77.47" y="175.768" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="96.52" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="180.34" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.17" y="175.768" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="86.36" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="147.32" size="1.778" layer="95"/>
@@ -4632,17 +4625,17 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <attribute name="NAME" x="187.96" y="147.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="142.748" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="93.98" y="177.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.17" y="180.594" size="1.778" layer="95"/>
-<attribute name="VALUE" x="86.868" y="175.768" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="106.68" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.87" y="180.594" size="1.778" layer="95"/>
+<attribute name="VALUE" x="99.568" y="175.768" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="96.52" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="147.574" size="1.778" layer="95"/>
-<attribute name="VALUE" x="89.408" y="142.748" size="1.778" layer="96"/>
+<attribute name="VALUE" x="89.408" y="140.208" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="203.2" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.39" y="147.574" size="1.778" layer="95"/>
-<attribute name="VALUE" x="196.088" y="142.748" size="1.778" layer="96"/>
+<attribute name="VALUE" x="196.088" y="140.208" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="22.86" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.05" y="147.574" size="1.778" layer="95"/>
@@ -4676,16 +4669,16 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <junction x="86.36" y="152.4"/>
 </segment>
 <segment>
-<wire x1="83.82" y1="190.5" x2="83.82" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
-<junction x="83.82" y="190.5"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<pinref part="U3" gate="G$1" pin="OUT"/>
-<wire x1="93.98" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="193.04" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="182.88" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="182.88" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="182.88" x2="93.98" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="182.88" x2="106.68" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="VOUT"/>
+<wire x1="81.28" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
+<junction x="96.52" y="193.04"/>
+<wire x1="106.68" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
@@ -4749,7 +4742,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="182.88" x2="73.66" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="182.88" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 </segment>
@@ -4790,22 +4783,6 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="142.24" x2="91.186" y2="142.24" width="0.1524" layer="91"/>
-<junction x="91.186" y="142.24"/>
-<wire x1="91.186" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<junction x="198.12" y="142.24"/>
-<wire x1="198.12" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
@@ -4821,6 +4798,26 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="43.18" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 <label x="50.8" y="25.4" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="86.36" y1="142.24" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="139.7" x2="91.186" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="91.186" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="139.7" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<junction x="91.186" y="139.7"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="193.04" y1="142.24" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="139.7" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
+<junction x="198.12" y="139.7"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -4839,7 +4836,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="30.48" y1="198.12" x2="30.48" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="200.66" x2="30.48" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="30.48" y1="190.5" x2="33.02" y2="190.5" width="0.1524" layer="91"/>
 </segment>
@@ -5038,21 +5035,22 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="IN"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="48.26" y1="190.5" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="190.5" x2="38.1" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="185.42" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="EN"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="190.5" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
-<junction x="45.72" y="190.5"/>
-<junction x="45.72" y="187.96"/>
 <wire x1="45.72" y1="182.88" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
-<junction x="45.72" y="185.42"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="45.72" y1="190.5" x2="38.1" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="185.42" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
+<junction x="45.72" y="185.42"/>
+<pinref part="U3" gate="G$1" pin="VIN"/>
+<wire x1="45.72" y1="187.96" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="193.04" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="193.04" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
+<junction x="45.72" y="190.5"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
+<wire x1="50.8" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
+<junction x="45.72" y="187.96"/>
 </segment>
 </net>
 <net name="+5V_PROG" class="0">
@@ -5260,6 +5258,14 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,50.8,193.04,U3,VIN,N$1,,,"/>
+<approved hash="104,1,81.28,193.04,U3,VOUT,3.3V,,,"/>
+<approved hash="104,1,177.8,139.7,U2,VDD,3.3V,,,"/>
+<approved hash="104,1,177.8,96.52,U2,VSS,GND,,,"/>
+<approved hash="104,1,78.74,137.16,U1,3V3,3.3V,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
